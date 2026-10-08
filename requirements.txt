@@ -1,0 +1,8 @@
+# System-python dependencies (topology, UDP application, experiments, analysis).
+# On Ubuntu these are installed by scripts/install.sh via apt:
+#   mininet  -> apt package 'mininet' (provides the 'mininet' Python module)
+#   matplotlib -> apt package 'python3-matplotlib'
+# If you prefer pip:  pip3 install -r requirements.txt
+matplotlib>=3.1
+# The UDP client/server and experiments/metrics.py use only the Python standard library.
+# The Ryu controller has its own environment: see requirements-ryu.txt.

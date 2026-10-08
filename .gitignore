@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv-ryu/
+logs/*
+!logs/.gitkeep
+# Per-packet raw files are large; summaries, runs.csv, reports and plots are committed.
+experiments/results/raw/
+tests/results/raw/

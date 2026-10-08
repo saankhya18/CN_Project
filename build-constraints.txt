@@ -1,0 +1,3 @@
+# Build-time constraint for installing Ryu 4.34: its setup.py uses
+# easy_install.get_script_args, which was removed in newer setuptools.
+setuptools==57.5.0
